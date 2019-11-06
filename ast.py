@@ -26,10 +26,7 @@ class Sum(BinaryOp):
         return i
 
 
-class Sub(BinaryOp):
-    def eval(self):
-        i = self.builder.sub(self.left.eval(), self.right.eval())
-        return i
+# TODO: create sub, nul, div classes
 
 
 class Print():
